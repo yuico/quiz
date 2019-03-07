@@ -6,13 +6,12 @@ import { Link } from "react-router-dom";
 
 const cx = classNames.bind(styles);
 
-const Header = ({ postId, onRemove }) => (
+const Header = () => (
   <header className={cx("header")}>
     <div className={cx("header-content")}>
       <div className={cx("brand")}>
-        <Link to="/">reactblog</Link>
+        <Link to="/">header</Link>
       </div>
-      <div className={cx("right")} />
     </div>
   </header>
 );

@@ -108,7 +108,7 @@ module.exports = function(webpackEnv) {
       {
         loader: require.resolve('sass-loader'),
         options: {
-          includePaths: [paths.golbalStyles]
+          includePaths: [paths.globalStyles]
         }
       }
 
