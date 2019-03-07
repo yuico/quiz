@@ -9,6 +9,9 @@ class ListContainer extends Component {
     return (
       <div>
           <QuestionBox />
+          <QuestionBox />
+          <QuestionBox />
+          <QuestionBox />
       </div>
     );
   }

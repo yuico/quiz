@@ -2,12 +2,13 @@ import React from 'react';
 import styles from './QuestionBox.scss';
 import classNames from 'classnames/bind';
 
+const cx = classNames.bind(styles);
+
 const QuestionBox = () => {
 
    return (
-        <div>
-            QuestionBox
-        </div>
+    <div className={cx('Question')}>   
+    </div>
     )
 }
 
