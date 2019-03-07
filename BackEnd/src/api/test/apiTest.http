@@ -1,0 +1,34 @@
+@port = 4000
+
+GET http://localhost:{{port}}/api/posts
+
+GET http://localhost:{{port}}/api/posts/5c76e85245fe3bcc80439ee0
+
+POST http://localhost:{{port}}/api/posts
+Content-Type: application/json
+
+{
+    "title": "제목",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum consectetur asperiores atque ratione, ducimus illum aut nostrum dolorum accusantium! Harum optio aut consectetur quasi, minima at, corrupti accusantium sit, quas deserunt soluta unde omnis ratione sint enim vel laboriosam cupiditate. Minus amet vero rem odit dolores, ratione, quasi itaque quia illum laudantium eum ",
+    "tags": ["태그","배열","입니다."]
+}
+
+// 그 부분만 수정 됨.
+PATCH http://localhost:{{port}}/api/posts/5c76e88d45fe3bcc80439ee1
+Content-Type: application/json
+
+{
+    "title": "제목 바뀜"
+}
+
+// 전체 수정 됨 (수정 할때 모든 필드 존재하는지 체크)
+PUT http://localhost:{{port}}/api/posts/5c76e88d45fe3bcc80439ee1
+Content-Type: application/json
+
+{
+    "title": "변경됨"
+}
+
+
+DELETE http://localhost:{{port}}/api/posts/3
+
