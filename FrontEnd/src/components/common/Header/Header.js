@@ -10,7 +10,7 @@ const Header = () => (
   <header className={cx("header")}>
     <div className={cx("header-content")}>
       <div className={cx("brand")}>
-        <Link to="/">header</Link>
+        <Link to="/">logo/search bar/sign in </Link>
       </div>
     </div>
   </header>
