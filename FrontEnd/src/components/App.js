@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import {ListPage, NotFoundPage} from "../pages";
+import { ListPage, NotFoundPage } from "../pages";
 
 const App = () => {
     return (

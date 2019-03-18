@@ -8,9 +8,10 @@ const cx = classNames.bind(styles);
 
 const Footer = () => (
   <footer className={cx("footer")}>
-    <Link to="/" className={cx("brand")}>
-    Footer | Sheridancollege SSU CCR
-    </Link>
+    <ul>
+      <li><Link to="/" className={cx("brand")}>Sheridancollege</Link></li>
+      <li><Link to="/" className={cx("brand")}>SSU</Link></li>
+    </ul>
   </footer>
 );
 

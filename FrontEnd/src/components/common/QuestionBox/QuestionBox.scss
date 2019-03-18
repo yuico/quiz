@@ -1,6 +1,15 @@
 .Question {
-    border: 1px solid #000;
-    width: 33.33%;
+    border: 1px solid black;
+    flex: 1;
     height: 200px;
+    @media only screen and (max-width: 768px) {
+        height: 300px;
+        transition: 1s;
+    }
+    @media only screen and (max-width: 414px) { 
+        height: 400px;
+        transition: 1s; 
+    }
+    
     
 }
