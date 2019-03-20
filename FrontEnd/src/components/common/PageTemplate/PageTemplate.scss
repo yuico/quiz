@@ -1,7 +1,20 @@
 .page-template {
-
+    display: grid;
+    grid-template-areas: 'h h h',
+                        'm m m',
+                        'f f f';
+    /* flex-direction: column; */
+    
+    header {
+        grid-area: 'h';
+    }
     main {
-        background: lightblue;
+        grid-area: 'm';
+        margin: 10px;
         //height: 200px;
+    }
+    footer {
+        grid-area: 'f';
+        /* margin-top: auto; */
     }
 }
