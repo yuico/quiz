@@ -11,10 +11,12 @@
     main {
         grid-area: 'm';
         margin: 10px;
-        //height: 200px;
+        height: 200px;
     }
+
+
     footer {
         grid-area: 'f';
-        /* margin-top: auto; */
+       /* margin-top: auto; */
     }
 }
