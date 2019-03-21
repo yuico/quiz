@@ -13,6 +13,8 @@ class ListContainer extends Component {
       <div className={cx('ListContainer')}>
           <QuestionBox  />
           <QuestionBox  />
+          <QuestionBox  />
+          <QuestionBox  />
       </div>
     );
   }

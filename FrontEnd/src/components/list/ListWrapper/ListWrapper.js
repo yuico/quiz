@@ -8,10 +8,8 @@ const cx = classNames.bind(styles);
 class ListWrapper extends Component {
  
   render() {
-   
     return (
       <div className={cx('list-wrapper')}>
-          <ListContainer />
           <ListContainer />
       </div>
     );

@@ -1,20 +1,19 @@
 .page-template {
     display: grid;
-    grid-template-areas: 'h h h',
-                        'm m m',
-                        'f f f';
-    /* flex-direction: column; */
-    
-    header {
-        grid-area: 'h';
-    }
-    main {
-        grid-area: 'm';
-        margin: 10px;
-        //height: 200px;
-    }
-    footer {
-        grid-area: 'f';
-       /* margin-top: auto; */
-    }
+    grid-template-areas: 'h'
+                        'm'
+                        'f';  
+}
+header {
+    grid-area: 'h';
+    height: 5rem;
+}
+main {
+    min-height: calc(100vh-15rem);
+    grid-area: 'm';
+}
+footer {
+    grid-area: 'f';
+    height: 10rem;
+    margin-top: auto;
 }

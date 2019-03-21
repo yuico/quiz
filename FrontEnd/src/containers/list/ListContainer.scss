@@ -1,14 +1,18 @@
 .ListContainer {
     border: 1px solid blue;
-    display: flex;   
     flex: 1;
+    display: flex;   
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
 
     @media only screen and (max-width: 768px) {
         
     }
 
     @media only screen and (max-width: 414px) { 
-        flex-direction: column;
+        
     }
     
 }

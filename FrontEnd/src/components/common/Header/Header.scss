@@ -1,8 +1,25 @@
 .header {
     background-color: blue;
-    height: 90px;
     width: 100%;
     text-decoration: none;
     color: white;
+    display: flex;
+}
+.header-content {
+    display: flex;
+    width: 100%;
+}
+.brand {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
 
+}
+.brand>ul {
+    display: flex;
+    width: 100%;
+}
+ul>li {
+    padding: 10px;
+    flex: none;
 }
