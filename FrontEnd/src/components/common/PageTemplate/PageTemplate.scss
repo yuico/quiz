@@ -5,15 +5,16 @@
                         'f';  
 }
 header {
+    position: sticky;
+    top: 0;
     grid-area: 'h';
-    height: 5rem;
+    height: 7rem;
 }
 main {
-    min-height: calc(100vh-15rem);
     grid-area: 'm';
+    min-height: calc(100vh - 14rem);
 }
 footer {
     grid-area: 'f';
-    height: 10rem;
-    margin-top: auto;
+    height: 7rem;
 }
